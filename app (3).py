@@ -6,7 +6,7 @@ import pickle
 
 # Load model
 # The model is directly loaded from the joblib file
-loaded_model = joblib.load('churn_pipeline_v1.joblib')
+loaded_model = joblib.load('churn_pipeline_v1 (2).joblib')
 
 # Load encoders
 with open("encoders.pkl", "rb") as f:
